@@ -1,0 +1,79 @@
+// @use "variables";
+
+// $primary-color: rgb(172, 117, 16);
+
+// nav {
+//   ul {
+//     list-style-type: none;
+
+//     li {
+//       padding: 18px;
+
+//       a {
+//         background-color: variables.$backgrond-color;
+//       }
+//     }
+//   }
+// }
+
+// @mixin circle($bg: purple) {
+//   width: 50px;
+//   height: 50px;
+//   border-radius: 25%;
+//   background-color: $bg;
+// }
+
+// circle1 {
+//   @include circle($bg: red);
+// }
+
+// circle2 {
+//   @include circle($bg: blue);
+// }
+
+// circle3 {
+//   @include circle($bg: yellow);
+// }
+
+// circle4 {
+//   @include circle();
+// }
+
+// @mixin font-to-rem($value) {
+//   font-size: ($value / 16) + rem;
+// }
+
+// .klasa1 {
+//   @include font-to-rem(50);
+// }
+
+// @function toRem($value) {
+//   $remValue: ($value / 16) + rem;
+//   @return $remValue;
+// }
+
+// @mixin square($bg: black) {
+//   width: toRem(200);
+//   height: toRem(200);
+//   border-radius: toRem(100);
+//   background-color: $bg;
+// }
+
+// $red: red;
+// $yellow: yellow;
+
+// %box {
+//   color: red;
+//   font-size: toRem(12);
+//   width: 50px;
+//   height: 50px;
+//   background-color: yellow;
+// }
+
+// %circle {
+//   color: $red;
+//   font-size: toRem(12);
+//   width: calc(100px / 2);
+//   height: calc(100px / 2);
+//   border-radius: toRem(25);
+// }

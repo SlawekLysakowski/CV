@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="na tej stronie...." />
+    <title>Document</title>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+    <link rel="stylesheet" href="assets/dist/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container flex-row border">
+      <div class="col-8 col-left section-color-cl border">
+        <div class="col-12 hero-img">
+          <img src="assets/src/img/hero-img2.png" alt="Kelly White CV Photo" />
+        </div>
+        <div class="col-9 hero-title flex-column">
+          <h1>Kelly White</h1>
+          <h2>ART DIRECTOR</h2>
+        </div>
+
+        <div class="col-12 hero-experience">
+          <div class="h2 orange-bg">Expirience</div>
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-workplace flex-column">
+              <p class="col-12 hero-date-of-work">2010 - 2015</p>
+              <h3 lass="col-12 hero-job-position">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-company-name flex-column">
+              <h3 lass="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-workplace flex-column">
+              <p class="col-12 hero-date-of-work">2010 - 2015</p>
+              <h3 lass="col-12 hero-job-position">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-company-name flex-column">
+              <h3 lass="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-workplace flex-column">
+              <p class="col-12 hero-date-of-work">2010 - 2015</p>
+              <h3 lass="col-12 hero-job-position">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-company-name flex-column">
+              <h3 lass="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-workplace flex-column">
+              <p class="col-12 hero-date-of-work">2010 - 2015</p>
+              <h3 lass="col-12 hero-job-position">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-company-name flex-column">
+              <h3 lass="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 hero-education">
+          <div class="h2 orange-bg">Education</div>
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-school flex-column">
+              <p class="col-12 date">2010 - 2015</p>
+              <h3 class="col-12 hero-school-name">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-field-of-study flex-column">
+              <h3 class="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-school flex-column">
+              <p class="col-12 date">2010 - 2015</p>
+              <h3 class="col-12 hero-school-name">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-field-o-study flex-column">
+              <h3 class="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-school flex-column">
+              <p class="col-12 date">2010 - 2015</p>
+              <h3 lass="col-12 hero-school-name">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-field-o-study flex-column">
+              <h3 class="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-item flex-row">
+            <div class="square-bullet"></div>
+            <div class="col-3 hero-school flex-column">
+              <p class="col-12 date">2010 - 2015</p>
+              <h3 class="col-12 hero-school-name">LOREM IPSUM</h3>
+            </div>
+            <div class="col-8 hero-field-o-study flex-column">
+              <h3 class="col-12 name">LOREM IPSUM</h3>
+
+              <p class="col-12 description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                fugit voluptatibus et. Libero ab laboriosam eaque! Eligendi quod
+                sint expedita rem, quos sunt ab, corporis illo, qui sapiente
+                labore cum!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 col-right section-color-cr border flex-column">
+        <div class="h2 orange-border">Contact me</div>
+        <div class="col-12 hero-contact flex-column" data-aos="fade-right">
+          <div class="col-12 hero-address flex-row">
+            <i class="fa-solid fa-location-dot icon"></i>
+
+            <div class="hero-address-info">
+              <div class="h3">Address</div>
+              <p>
+                13, Street Oclaho, <br />
+                New York City, USA
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 hero-website flex-row">
+            <i class="fa-solid fa-globe icon"></i>
+
+            <div class="hero-website-info">
+              <br />
+              <div class="h3">Web</div>
+              <a href="mailto:contactme@gmail.com">contactme@gmail.com</a><br />
+              <a href="https://www.contactme.com">/www.contactme.com</a>
+            </div>
+          </div>
+          <div class="col-12 hero-contact-phone flex-row">
+            <i class="fa-solid fa-phone icon"></i>
+            <div class="hero-phone-info">
+              <div class="h3">Phone</div>
+              <a href="tel.012300000001000">0123 0000 00000 1000</a><br />
+              <a href="tel.012300000000000">0123 0000 00000 0000</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="h2 orange-border">Pro Skills</div>
+        <div class="col-12 hero-skills flex-column" data-aos="fade-right">
+          <h3 class="hero-skill-title">Illustrator</h3>
+          <div class="hero-skill-progress illustrator"></div>
+
+          <h3 class="hero-skill-title">Photoshop</h3>
+          <div class="hero-skill-progress photoshop"></div>
+          `
+          <h3 class="hero-skill-title">Indesign</h3>
+          <div class="hero-skill-progress indesign"></div>
+
+          <h3 class="hero-skill-title">MS Word</h3>
+          <div class="hero-skill-progress msword"></div>
+        </div>
+
+        <div class="hero-social-media">
+          <i class="fa-brands fa-instagram icon"></i>
+          <i class="fa-brands fa-twitter icon"></i>
+          <i class="fa-brands fa-whatsapp icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- <style>
+      .dropdown,
+      .btn {
+        display: none;
+      }
+
+      .btn:checked ~ .dropdown {
+        display: block;
+      }
+    </style> -->
+
+    <!-- <h1>Jan Kowalski</h1>
+    <h2>Jan Kowalski</h2>
+    <h3>Jan Kowalski</h3>
+    <h4>Jan Kowalski</h4>
+    <h5>Jan Kowalski</h5>
+    <h6>Jan Kowalski</h6> -->
+
+    <!-- <img
+      width="500px"
+      height="300px"
+      src="./assets/src/img/wine-4931923_1280.jpg"
+      alt="wine wine-drink-alcohol-glasses"
+    /> -->
+    <!-- <label for="xyz">Przycisk</label>
+    <input type="checkbox" name="xyz" class="btn" id="xyz" />
+
+    <div class="dropdown">
+      <ul>
+        <li>Jan Kowalski</li>
+        <li>Jan Kowalski</li>
+        <li>Jan Kowalski</li>
+        <li>Jan Kowalski</li>
+      </ul>
+      <ol>
+        <li>Jan Kowalski</li>
+        <li>Jan Kowalski</li>
+        <li>Jan Kowalski</li>
+        <li>Jan Kowalski</li>
+      </ol>
+    </div> -->
+
+    <!-- <form action="" method="get">
+      <div>
+        <label for="">Imie</label>
+        <input type="text" name="" id="" />
+      </div>
+      <div>
+        <label for="">Nazwisko</label>
+        <input type="text" name="" id="" />
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="text" name="" id="" />
+      </div>
+      <div>
+        <label for="">Haslo</label>
+        <input type="text" name="" id="" />
+      </div>
+      <div>
+        <button type="submit">Wyślij</button>
+        <input type="submit" value="wyślij" />
+      </div>
+    </form> -->
+
+    <!-- <picture>
+      <source
+        media="(min-width: 1024px)"
+        srcset="assets\src\img\hamburger-2683042_640.jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="assets\src\img\cabinet-1293245_1280.png"
+      />
+      <img src="assets/src/img/wine-4931923_1280.jpg" alt="Wine" />
+    </picture>
+
+    <h1>Jan Kowalski</h1>
+    <h2>Jan Kowalski</h2>
+    <h3>Jan Kowalski</h3>
+    <h4>Jan Kowalski</h4>
+    <h5>Jan Kowalski</h5>
+    <h6>Jan Kowalski</h6>
+
+    <table>
+      <thead>
+        <th>Lp.</th>
+        <th>Imie</th>
+        <th>Nazwisko</th>
+        <tr>
+          <td>2</td>
+          <td>Slawek</td>
+          <td>Lysakowski</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+      </thead>
+    </table> -->
+    <script src="assets/src/js/index.js"></script>
+  </body>
+</html>
