@@ -1,5 +1,5 @@
 name: Wdrożenie projektu na serwerze poprzez FTP
-on: 
+on:
   push:
     branches:
       - main
@@ -12,18 +12,11 @@ jobs:
     name: Wdrożenie na FTP
     runs-on: Ubuntu-latest
     steps:
-      - name: Załadowanie kodu 
+      - name: Załadowanie kodu
         uses: actions/checkout@v3
-      - name: Synchronizacha plików 
-        uses: SamCirkland/FTP-Deploy-Action@v4.3.4
-        with: 
+      - name: Synchronizacha plików
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
           server: s1.ct8.pl
           username: ${{secrets.ftp_username}}
           password: ${{secrets.ftp_password}}
-        
-      
-  
-  
-
-
-    
